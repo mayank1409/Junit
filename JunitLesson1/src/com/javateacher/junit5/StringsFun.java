@@ -22,7 +22,7 @@ public class StringsFun {
 		String answer = "";
 		for (int i = 0; i < str.length(); i++) {
 			if (str.charAt(i) >= 97 && str.charAt(i) <= 122) {
-				int ch = (char) str.charAt(i) - 32;
+				int ch = str.charAt(i) - 32;
 				answer += (char) ch;
 			} else {
 				answer += (char) str.charAt(i);
@@ -39,7 +39,7 @@ public class StringsFun {
 		String answer = "";
 		for (int i = 0; i < str.length(); i++) {
 			if (str.charAt(i) >= 65 && str.charAt(i) <= 90) {
-				int ch = (char) str.charAt(i) + 32;
+				int ch = str.charAt(i) + 32;
 				answer += (char) ch;
 			} else {
 				answer += (char) str.charAt(i);
